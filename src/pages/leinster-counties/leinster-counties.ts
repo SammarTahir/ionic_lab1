@@ -14,7 +14,9 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'leinster-counties.html',
 })
 export class LeinsterCountiesPage {
-
+  counties: string[] = ["Carlow", "Dublin", "Kildare",
+  "Kilkenny", "Laois", "Longford", "Louth", "Meath",
+  "Offaly", "Westmeath", "Wexford", "Wicklow"];
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 

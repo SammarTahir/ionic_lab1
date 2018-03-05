@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { LeinsterCountiesPage } from '../leinster-counties/leinster-counties';
 
 /**
- * Generated class for the LeinsterPage page.
+ * Generated class for the ConnaughtCountiesPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,19 +10,16 @@ import { LeinsterCountiesPage } from '../leinster-counties/leinster-counties';
 
 @IonicPage()
 @Component({
-  selector: 'page-leinster',
-  templateUrl: 'leinster.html',
-  
+  selector: 'page-connaught-counties',
+  templateUrl: 'connaught-counties.html',
 })
-export class LeinsterPage {
-  
+export class ConnaughtCountiesPage {
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad LeinsterPage');
+    console.log('ionViewDidLoad ConnaughtCountiesPage');
   }
-  openLeinsterCounties(){
-    this.navCtrl.push(LeinsterCountiesPage)
-  }
+
 }

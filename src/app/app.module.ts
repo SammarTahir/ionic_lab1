@@ -11,6 +11,7 @@ import { MunsterPage } from '../pages/munster/munster';
 import { ConnaughtPage } from '../pages/connaught/connaught';
 import { LeinsterPage } from '../pages/leinster/leinster';
 import { LeinsterCountiesPage } from '../pages/leinster-counties/leinster-counties';
+import { ConnaughtCountiesPage } from '../pages/connaught-counties/connaught-counties';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LeinsterCountiesPage } from '../pages/leinster-counties/leinster-counti
     MunsterPage,
     ConnaughtPage,
     LeinsterPage,
-    LeinsterCountiesPage
+    LeinsterCountiesPage,
+    ConnaughtCountiesPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { LeinsterCountiesPage } from '../pages/leinster-counties/leinster-counti
     MunsterPage,
     ConnaughtPage,
     LeinsterPage,
-    LeinsterCountiesPage
+    LeinsterCountiesPage,
+    ConnaughtCountiesPage
   ],
   providers: [
     StatusBar,
